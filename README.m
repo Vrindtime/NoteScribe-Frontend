@@ -25,11 +25,11 @@ A **Free & Open Source** (FOSS) text-to-speech web app built **for students, by 
 
 ## 🛠️ Tech Stack
 
-| Part        | Technology                                  |
-|-----------|---------------------------------------------|
-| **Frontend**  | HTML, CSS, Vanilla JavaScript               |
-| **Backend**   | [AWS ( Lambda + ECR +S3 ) + Docker +Piper TTS] *(https://github.com/Vrindtime/NoteScribe/)*     |
-| **CI/CD**     | Github Actions     |
+| Part          | Technology                                                                                                |
+|---------------|-----------------------------------------------------------------------------------------------------------|
+| **Frontend**  | HTML, CSS, Vanilla JavaScript                                                                             |
+| **Backend**   | [Python + AWS ( Lambda + ECR +S3 ) + Docker +Piper TTS]                                                   |
+| **CI/CD**     | Github Actions                                                                                            |
 | **TTS Engine**| [Piper](https://github.com/rhasspy/piper) – Fast, local-first neural TTS |
 
 > **Backend Repository**: [Note Scribe Backend](https://github.com/Vrindtime/NoteScribe/)  
