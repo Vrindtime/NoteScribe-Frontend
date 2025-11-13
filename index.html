@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Piper TTS</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Note Scribe</h1>
+  <h2>Text to Speech For Students</h2>
+  <div class="input-group">
+    <textarea id="text" placeholder="Type or paste your message here..."></textarea>
+    <div class="controls">
+      <select id="pace">
+        <option value="writing">Writing (4 spaces)</option>
+        <option value="typing">Typing (2 spaces)</option>
+      </select>
+      <div class="slider-container">
+        <label for="speed">Speed:</label>
+        <input type="range" id="speed" min="0.5" max="2" step="0.1" value="0.8" />
+        <span id="speedValue">0.8x</span>
+      </div>
+    </div>
+    <button onclick="speak()">Speak</button>
+  </div>
+  <div id="effectOutput" class="effect-output"></div>
+  <audio id="audio" controls></audio>
+
+  <!-- Keyboard Shortcuts Hint -->
+  <div id="shortcuts" class="shortcuts">
+    <strong>Keyboard Controls:</strong><br>
+    <kbd>Space</kbd> Play/Pause • 
+    <kbd>←</kbd> -3s • 
+    <kbd>→</kbd> +3s
+  </div>
+</div>
+
+<!-- Processing Modal -->
+<div id="processingModal" class="modal">
+  <div class="modal-content">
+    <div class="spinner"></div>
+    <p><strong>Generating speech...</strong></p>
+    <p style="font-size:0.9rem; color:#666;">This may take a few seconds.</p>
+  </div>
+</div>
+
+<footer style="">
+  <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
+    <p>
+      Made with ❤️ by <strong>Vrindtime</strong>
+    </p>
+    <p>
+      Powered by <a href="https://github.com/rhasspy/piper" target="_blank" rel="noopener" style="color: #1a73e8; text-decoration: none; font-weight: 500;">Piper TTS</a>
+    </p>
+    <p style="font-style: italic; margin-top: 0.8rem; color: #666;">
+      This is an <strong>FOSS</strong> project I made for students, as an student.
+    </p>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
