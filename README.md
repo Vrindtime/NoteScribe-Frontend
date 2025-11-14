@@ -30,9 +30,10 @@ A **Free & Open Source** (FOSS) text-to-speech web app built **for students, by 
 | **Frontend**  | HTML, CSS, Vanilla JavaScript                                                                             |
 | **Backend**   | [Python + AWS ( Lambda + ECR +S3 ) + Docker +Piper TTS]                                                   |
 | **CI/CD**     | Github Actions                                                                                            |
-| **TTS Engine**| [Piper](https://github.com/rhasspy/piper) – Fast, local-first neural TTS |
+| **TTS Engine**| [Piper](https://github.com/rhasspy/piper) – Fast, local-first neural TTS                                   |
 
-> **Backend Repository**: [Note Scribe Backend](https://github.com/Vrindtime/NoteScribe/)  
+> **Backend Repository**: [Note Scribe Backend](https://github.com/Vrindtime/NoteScribe/)
+> **Uptime**: [Uptime Robot](https://stats.uptimerobot.com/V7Avx6GTYJ)
 
 ---
 
