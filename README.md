@@ -48,3 +48,5 @@ A **Free & Open Source** (FOSS) text-to-speech web app built **for students, by 
 5. Use **Space**, **←**, **→** to control playback
 
 ---
+## Architecture
+<img width="960" height="790" alt="Note Scribe" src="https://github.com/user-attachments/assets/533acef9-2157-46e9-9ca8-4975dbffe250" />
